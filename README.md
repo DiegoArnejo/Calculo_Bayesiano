@@ -10,12 +10,10 @@ Este repositorio contiene dos proyectos desarrollados con Python para clasificar
 * **Archivo:** `Bayes_Noticias.py` 
 * **Objetivo:** Clasificar titulares automáticamente determinando si son **reales** o **falsos**.
 * **Funcionamiento:** 
+
   I. Toma un conjunto de noticias etiquetadas previamente.
-  
   II. Convierte las palabras en frecuencias numéricas con `CountVectorizer`.
-  
   III. Entrena un modelo Naive Bayes con el 70% de los datos y evalúa su efectividad con el 30% restante.
-  
   IV. Permite evaluar nuevas noticias de prueba.
 
 ---
@@ -24,10 +22,9 @@ Este repositorio contiene dos proyectos desarrollados con Python para clasificar
 * **Archivo:** `Bayes_Grooming.py`
 * **Objetivo:** Detectar patrones de riesgo en conversaciones de chat para identificar situaciones de **grooming** frente a interacciones cotidianas o seguras (`no grooming`).
 * **Funcionamiento:**
+
   I. Analiza frases y mensajes típicos de internet mediante procesamiento de texto.
-  
   II. Emplea el mismo modelo probabilístico para identificar términos de alerta en los mensajes analizados.
-  
   III. Evalúa el rendimiento del sistema mediante métricas de precisión y matriz de confusión.
 
 ---
